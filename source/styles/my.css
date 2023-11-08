@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
+
+body {
+    font-family: Lato, serif;
+    background: linear-gradient(0deg, #e1ff00 0%, #000 100%);
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(162, 3, 3);
+}
+.navbar-brand img {
+    width: 60px;
+}.navbar-toggler {
+    background-color: rgb(82, 82, 82);
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #e1ff00 0%, #000 100%);
+}
+
+.card {
+    background: linear-gradient(45deg, #e1ff00 0%, #000000 100%);
+    color: rgb(2, 2, 2);
+}
+
+
+.card a {
+    text-decoration: 0;
+    color: rgb(0, 0, 0)
+}
+
+.slide-text {
+    color: #2b00ff;
+    margin: auto auto;
+}
+footer {
+    background-color: #000;
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
